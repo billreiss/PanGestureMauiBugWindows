@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PanGestureSample.MainPage"
+             xmlns:local="clr-namespace:PanGestureSample">
+
+    <Grid>
+        <Grid WidthRequest="300" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="Start" IsClippedToBounds="True">
+            <local:PanContainer >
+                <Image Source="horses.jpg" WidthRequest="900" HeightRequest="1350" HorizontalOptions="Start" VerticalOptions="Start" TranslationX="-365" TranslationY="-535"/>
+            </local:PanContainer>
+        </Grid>
+    </Grid>
+
+</ContentPage>
